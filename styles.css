@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    color: #E5E7EB;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+    border-radius: 4px;
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color: white;
+    width: 100px;
+    height: 26px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    padding: 0px 16px;
+    height: 48px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #1F2937;
+    padding: 16px 16px;
+}
+
+.hero-text-n-button {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 8px;
+}
+
+.info {
+    text-align: center;
+    padding: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+    margin: 16px;
+}
+
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 125px;
+}
+
+.quote.text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 24px;
+}
+
+.sign-up {
+    display: flex;
+    background: #3882F6;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 32px;
+    border-radius: 8px;
+}
+
+.sign-up.text.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-title {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-start;
+    color: #F9FAF8;
+}
+
+.sign-up-text {
+    color: #E5E7EB;
+}
+
+.footer {
+    background: #1F2937;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text {
+    color: white;
+}
+
+#header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+#hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#btn-with-border {
+    border: 1px solid white;
+}
